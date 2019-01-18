@@ -21,6 +21,11 @@ export default function PreHeader() {
                                         <Link to="/login">Login</Link>
                                     </aside>
                                 </li>
+                                <li>
+                                    <aside>
+                                        <Link to="/signup">Sign Up</Link>
+                                    </aside>
+                                </li>
                             </ul>
                         </div>
                     </div>

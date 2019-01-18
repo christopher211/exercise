@@ -1,3 +1,51 @@
 .content {
+    padding-top: 50px;
     text-align: center;
+}
+.title {
+    text-align: left;
+    margin-bottom: -13px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.forgot {
+    font-size: 15px;
+    margin-right: -65%;
+}
+.widget-form {
+    border: 2px solid #223451;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    width: 400px;
+    padding: 20px;
+}
+.widget-list {
+    border: 1px solid #dedede;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    width: 400px;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+
+.widget-form input[type="text"],
+.widget-form input[type="email"],
+.widget-form input[type="password"],
+.widget-form input[type="number"] {
+    padding: 10px;
+    border: solid 1px #dcdcdc;
+    transition: box-shadow 0.3s, border 0.3s;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.widget-form input[type="text"]:focus,
+.widget-form input[type="email"]:focus,
+.widget-form input[type="password"]:focus,
+.widget-form input[type="number"]:focus{
+    border: solid 1px #0FBBEC;
+    box-shadow: 0 0 10px 0px #61dafb;
 }
